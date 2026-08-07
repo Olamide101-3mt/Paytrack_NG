@@ -39,7 +39,7 @@ export default function Hero() {
         fontFamily: "'Syne', sans-serif",
         fontSize: "clamp(42px, 7vw, 82px)",
         fontWeight: 800, lineHeight: 1.05,
-        letterSpacing: "-2px", marginBottom: "24px",
+        letterSpacing: "-2px", marginBottom: '24px',
         animation: "fadeUp 0.6s ease 0.1s both",
       }}>
         Stop Losing Money<br />
@@ -47,7 +47,6 @@ export default function Hero() {
         <span style={{ color: "#00C48C" }}>Unpaid</span>{" "}
         <span style={{ WebkitTextStroke: "2px rgba(255,255,255,0.25)", color: "transparent" }}>Invoices</span>
       </h1>
-
       {/* Subtext */}
       <p style={{
         fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.5)",

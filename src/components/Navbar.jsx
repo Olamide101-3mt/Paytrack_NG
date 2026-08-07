@@ -36,7 +36,7 @@ export default function Navbar() {
         {NAV_LINKS.map(link => (
           <li key={link}>
             <a 
-              href={'#${link.toLowerCase().replace(" ", "-")}'}
+              href={`#${link.toLowerCase().replace(" ", "-")}`}
               style={{fontSize: "14px", color: "rgba(255,255,255,0.5)", textDecoration: "none", fontweight: 500, transition: "color 0.2s"}}
               onMouseEnter={e => e.target.style.color = "#fff"}
               onMouseLeave={e => e.target.style.color = "rgba(255,255,255,0.5)"}

@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AppMockUp from './components/AppMockUp';
+import Features from './components/Features';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <AppMockUp /> 
+      <Features />
     </body>
   );
 }
